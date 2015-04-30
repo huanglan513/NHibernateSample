@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+   assembly="NHibernateSample.Domain"
+   namespace="NHibernateSample.Domain.Entities">
+  <class name="Product" table="Product">
+    <id name="ProductId" column="ProductId" type="Int32" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <version name="Version" column="Version" type="integer" unsaved-value="0"/>
+    <property name="Name" column="Name" type="string" not-null="true" length="50" />
+    <property name="Cost" column="Cost" type="float" not-null="true" />
+    <bag name="Orders" generic="true" table="OrderProduct">
+      <key column="ProductId" foreign-key="FK_OrderProduct_Product"  />
+      <many-to-many column="OrderId" class="NHibernateSample.Domain.Entities.Order,NHibernateSample.Domain"
+                     foreign-key="FK_OrderProduct_Order" />
+    </bag>
+  </class>
+</hibernate-mapping>

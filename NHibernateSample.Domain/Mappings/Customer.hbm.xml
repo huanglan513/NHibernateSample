@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+   assembly="NHibernateSample.Domain"
+   namespace="NHibernateSample.Domain.Entities">
+  <class name="Customer">
+    <id name="Id" column="CustomerId">
+      <generator class="native"></generator>
+    </id>
+      <version name="Version" column="Version" type="integer" unsaved-value="0"/>
+      <property name="FirstName" ></property>
+      <property name="LastName" ></property>
+    <set name="Orders" table="[Order]" generic="true" inverse="true" >
+      <key column="CustomerId" foreign-key="FK_Order_Customer" />
+      <one-to-many class="NHibernateSample.Domain.Entities.Order,NHibernateSample.Domain"/>
+    </set>
+  </class>
+</hibernate-mapping>

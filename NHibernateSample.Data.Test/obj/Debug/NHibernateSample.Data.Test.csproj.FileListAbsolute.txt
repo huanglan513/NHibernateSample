@@ -1,0 +1,12 @@
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\hibernate.cfg.xml
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernateSample.Data.Test.dll
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernateSample.Data.Test.pdb
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernateSample.Data.dll
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernateSample.Domain.dll
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernate.dll
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\Iesi.Collections.dll
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernateSample.Data.pdb
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\bin\Debug\NHibernateSample.Domain.pdb
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\obj\Debug\NHibernateSample.Data.Test.dll
+C:\Users\huanglan.it\documents\visual studio 2010\Projects\NHibernateSample\NHibernateSample.Data.Test\obj\Debug\NHibernateSample.Data.Test.pdb

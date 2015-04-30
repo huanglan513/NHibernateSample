@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+   assembly="NHibernateSample.Domain"
+   namespace="NHibernateSample.Domain.Entities">
+  <class name="CustomerComponent" table="CustomerA">
+    <id name="Id" column="CustomerId" type="Int32" unsaved-value="0">
+      <generator class="native"></generator>
+    </id>
+    <version name="Version" column="Version" type="integer" unsaved-value="0"/>
+    <component name="Name" class="NHibernateSample.Domain.Entities.Name,NHibernateSample.Domain">
+      <property name="FirstName" column="FirstName" type="string" length="50" not-null="false"  />
+      <property name="LastName" column="LastName" type="string" length="50" not-null="false" />
+    </component>
+  </class>
+</hibernate-mapping>
